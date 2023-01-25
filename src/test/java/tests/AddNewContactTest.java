@@ -76,10 +76,12 @@ public class AddNewContactTest extends TestBase {
                 .address("LA")
                 .description("OK")
                 .build();
+        System.out.println(contact.toString());
 
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
-        Assert.assertTrue(app.getHelperContact().isSavePresent());
+       // Assert.assertTrue(app.getHelperContact().isSavePresent());
+        Assert.assertTrue(app.getHelperContact().isAddPageStillDisplayed());
 
 
     }

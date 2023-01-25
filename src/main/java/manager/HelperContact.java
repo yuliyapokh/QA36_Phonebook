@@ -16,7 +16,7 @@ public class HelperContact extends HelperBase {
 
 
     public void openContactForm() {
-        pause(500);
+        pause(3000);
         click(By.cssSelector("[href='/add']"));
 
     }
@@ -84,5 +84,8 @@ public class HelperContact extends HelperBase {
         return false;
     }
 
+    public boolean isAddPageStillDisplayed() {
+        return wd.findElements(By.cssSelector("a.active[href='/add']")).size()>0;
     }
+}
 

@@ -1,0 +1,18 @@
+20:55:16.199  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+20:55:17.742  INFO  manager.ApplicationManager - Current url --> https://telranedu.web.app/home
+20:55:17.760  INFO  tests.TestBase - The name of the starts method is --->loginWrongEmail
+20:55:22.833  INFO  tests.TestBase - Logout success
+20:57:01.850  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+20:57:03.626  INFO  manager.ApplicationManager - Current url --> https://telranedu.web.app/home
+20:57:03.643  INFO  tests.TestBase - The name of the starts method is --->loginUnregisterUser
+20:57:08.684  INFO  tests.TestBase - Logout success
+21:02:18.047  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+21:02:20.056  INFO  manager.ApplicationManager - Current url --> https://telranedu.web.app/home
+21:02:20.072  INFO  tests.TestBase - The name of the starts method is --->loginSuccessNew
+21:02:25.125  INFO  tests.TestBase - Logout success
+21:02:25.127  INFO  tests.TestBase - Login with valid data: pokh@1i.ua  &  Yyp12345!
+21:05:18.167  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+21:05:20.319  INFO  manager.ApplicationManager - Current url --> https://telranedu.web.app/home
+21:05:20.335  INFO  tests.TestBase - The name of the starts method is --->loginSuccessNew
+21:05:25.419  INFO  tests.TestBase - Logout success
+21:05:25.420  INFO  tests.TestBase - Login with valid data: pokh@1i.ua  &  Yyp12345!
