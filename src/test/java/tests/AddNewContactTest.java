@@ -151,6 +151,27 @@ public class AddNewContactTest extends TestBase {
 
     }
 
+    @Test
+    public void  addNewContactWrongEmail(){
+
+        Contact contact = Contact.builder()
+                .name("John")
+                .lastName("Wick")
+                .address("NY")
+                .phone("11111234567")
+                .email("johnmail.ru")
+                .description("wrong Last name").build();
+        System.out.println(contact.toString());
+
+        app.getHelperContact().openContactForm();
+        app.getHelperContact().fillContactForm(contact);
+        app.getHelperContact().submitContact();
+        Assert.assertTrue(app.getHelperContact().isAddPageStillDisplayed());
+        Assert.assertTrue(app.getHelperUser().isErrorMessageDisplayed("Email not valid: must be a well-formed email address"));
+
+    }
+
+
 
     @Test
     public void addContactTestFailWithoutAddress() {

@@ -87,5 +87,17 @@ public class HelperContact extends HelperBase {
     public boolean isAddPageStillDisplayed() {
         return wd.findElements(By.cssSelector("a.active[href='/add']")).size()>0;
     }
+
+    public boolean isContactAddedByEmail(String email) {
+        List<WebElement> lis = wd.findElements(By.cssSelector(".contact-item_card__2SOIM"));
+        for (WebElement el:lis){
+            el.click();
+            String text = wd.findElement(By.cssSelector(".contact-item-detailed_card__50dTS")).getText();
+            if(text.contains(email)){
+                return true;
+            }
+        }
+        return false;
+    }
 }
 
