@@ -1,0 +1,24 @@
+22:53:20.393  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+22:53:22.372  INFO  manager.ApplicationManager - Current url --> https://telranedu.web.app/home
+22:53:22.376  INFO  manager.ListenerTNG - onStart --->Gradle test
+22:53:22.396  INFO  tests.TestBase - The name of the starts method is --->loginWrongEmail
+22:53:22.397  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+22:53:27.468  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+22:53:27.470  INFO  manager.ListenerWD - List suze is --> 0
+22:53:27.471  INFO  tests.TestBase - Logout success
+22:53:27.472  INFO  manager.ListenerTNG - onTestStart --->loginWrongEmail
+22:53:27.473  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+22:53:27.500  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+22:53:27.959  INFO  tests.TestBase - Login with valid data: pokh1i.ua  &  Yyp12345!
+22:53:27.960  INFO  manager.ListenerWD - Before find element --> By.name: email
+22:53:27.995  INFO  manager.ListenerWD - After find element --> By.name: email
+22:53:28.496  INFO  manager.ListenerWD - Before find element --> By.name: password
+22:53:28.529  INFO  manager.ListenerWD - After find element --> By.name: password
+22:53:28.671  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='login']
+22:53:28.688  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='login']
+22:53:28.776  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+22:53:30.098  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+22:53:30.098  INFO  manager.ListenerWD - List suze is --> 0
+22:53:30.122  INFO  tests.TestBase - Test success
+22:53:30.124  INFO  manager.ListenerTNG - onTestSuccessloginWrongEmail
+22:53:30.126  INFO  manager.ListenerTNG - onFinish --->Gradle test

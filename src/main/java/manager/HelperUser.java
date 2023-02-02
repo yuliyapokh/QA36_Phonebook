@@ -40,22 +40,26 @@ public class HelperUser extends HelperBase{
 
     public void submitLogin(){
         click(By.cssSelector("[name='login']"));
-        pause(500);
+
 
     }
 
     public boolean isLogged() {
-        try {
-           wd.findElement(By.xpath("//button[text()='Sign Out']")).isDisplayed();
-            return true;
-       }catch (Exception e)
-        {
-        return false;
-       }
-
-        //List<WebElement> list  = wd.findElements(By.xpath("//button[text()='Sign Out']"));
-        //return list.size() > 0;
+//        try {
+//            wd.findElement(By.xpath("//button[text()='Sign Out']")).isDisplayed();
+//            return true;
+//        }catch (Exception e){
+//            return false;
+//        }
+        List<WebElement> list  = wd.findElements(By.xpath("//button[text()='Sign Out']"));
+        // List<WebElement> list  = wd.findElements(By.xpath("//button"));
+        return list.size() > 0;
     }
+
+
+    //List<WebElement> list  = wd.findElements(By.xpath("//button[text()='Sign Out']"));
+        //return list.size() > 0;
+
 
     public void logout() {
         click(By.xpath("//button[text()='Sign Out']"));
@@ -73,7 +77,7 @@ public class HelperUser extends HelperBase{
     public boolean isErrorMessageDisplayed(String message) {
         //Alert alert = wd.switchTo().alert();
 
-       Alert alert =  new WebDriverWait(wd, Duration.ofSeconds(8))
+       Alert alert =  new WebDriverWait(wd, Duration.ofSeconds(10))
                 .until(ExpectedConditions.alertIsPresent());
 
 

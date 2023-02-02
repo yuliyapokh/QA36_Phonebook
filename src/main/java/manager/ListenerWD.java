@@ -20,7 +20,7 @@ public class ListenerWD implements WebDriverListener {
     @Override
     public void onError(Object target, Method method, Object[] args, InvocationTargetException e) {
         WebDriverListener.super.onError(target, method, args, e);
-        logger.info("The have a 'problem'");
+        logger.info("We have a 'problem'");
         logger.info("******************");
         logger.info("Method method ---> " +method.getName());
         logger.info("******************");
