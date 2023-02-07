@@ -1,0 +1,108 @@
+11:40:24.321  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+11:40:26.074  INFO  manager.ApplicationManager - Current url --> https://telranedu.web.app/home
+11:40:26.091  INFO  tests.TestBase - The name of the starts method is --->addContactTestFailWithFailEmail
+11:40:26.092  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:40:31.130  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:40:31.133  INFO  manager.ListenerWD - List suze is --> 0
+11:40:31.134  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+11:40:31.162  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+11:40:31.629  INFO  manager.ListenerWD - Before find element --> By.name: email
+11:40:31.665  INFO  manager.ListenerWD - After find element --> By.name: email
+11:40:32.202  INFO  manager.ListenerWD - Before find element --> By.name: password
+11:40:32.236  INFO  manager.ListenerWD - After find element --> By.name: password
+11:40:32.366  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='login']
+11:40:32.383  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='login']
+11:40:35.464  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [href='/add']
+11:40:35.489  INFO  manager.ListenerWD - We have a 'problem'
+11:40:35.489  INFO  manager.ListenerWD - ******************
+11:40:35.490  INFO  manager.ListenerWD - Method method ---> findElement
+11:40:35.490  INFO  manager.ListenerWD - ******************
+11:40:35.491  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=109.0.5414.119): Wrong email or password
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04898b4901bb5c4619f6a65fc41397b4, findElement {using=css selector, value=[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/_h/0pcbs0gj1fd...}, goog:chromeOptions: {debuggerAddress: localhost:62529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62529/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 04898b4901bb5c4619f6a65fc41397b4
+11:40:35.491  INFO  manager.ListenerWD - ******************
+11:40:35.491  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on MAC (04898b4901bb5c4619f6a65fc41397b4)
+11:40:35.491  INFO  manager.ListenerWD - ******************
+11:40:35.496  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-927.png
+11:40:36.558  INFO  tests.TestBase - The name of the starts method is --->addContactTestFailWithFailPhone
+11:40:36.559  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:40:41.608  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:40:41.609  INFO  manager.ListenerWD - List suze is --> 0
+11:40:41.609  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+11:40:41.626  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+11:40:41.671  INFO  manager.ListenerWD - Before find element --> By.name: email
+11:40:41.683  INFO  manager.ListenerWD - After find element --> By.name: email
+11:40:41.838  INFO  manager.ListenerWD - Before find element --> By.name: password
+11:40:41.855  INFO  manager.ListenerWD - After find element --> By.name: password
+11:40:42.082  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='login']
+11:40:42.101  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='login']
+11:40:45.189  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [href='/add']
+11:40:45.200  INFO  manager.ListenerWD - We have a 'problem'
+11:40:45.203  INFO  manager.ListenerWD - ******************
+11:40:45.203  INFO  manager.ListenerWD - Method method ---> findElement
+11:40:45.203  INFO  manager.ListenerWD - ******************
+11:40:45.203  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=109.0.5414.119): Wrong email or password
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04898b4901bb5c4619f6a65fc41397b4, findElement {using=css selector, value=[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/_h/0pcbs0gj1fd...}, goog:chromeOptions: {debuggerAddress: localhost:62529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62529/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 04898b4901bb5c4619f6a65fc41397b4
+11:40:45.204  INFO  manager.ListenerWD - ******************
+11:40:45.204  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on MAC (04898b4901bb5c4619f6a65fc41397b4)
+11:40:45.205  INFO  manager.ListenerWD - ******************
+11:40:45.205  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-664.png
+11:40:46.232  INFO  tests.TestBase - The name of the starts method is --->addContactTestFailWithoutAddress
+11:40:46.232  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:40:51.258  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:40:51.260  INFO  manager.ListenerWD - List suze is --> 0
+11:40:51.260  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+11:40:51.276  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+11:40:51.314  INFO  manager.ListenerWD - Before find element --> By.name: email
+11:40:51.325  INFO  manager.ListenerWD - After find element --> By.name: email
+11:40:51.552  INFO  manager.ListenerWD - Before find element --> By.name: password
+11:40:51.567  INFO  manager.ListenerWD - After find element --> By.name: password
+11:40:51.698  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='login']
+11:40:51.711  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='login']
+11:40:54.766  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [href='/add']
+11:40:54.776  INFO  manager.ListenerWD - We have a 'problem'
+11:40:54.777  INFO  manager.ListenerWD - ******************
+11:40:54.777  INFO  manager.ListenerWD - Method method ---> findElement
+11:40:54.777  INFO  manager.ListenerWD - ******************
+11:40:54.778  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=109.0.5414.119): Wrong email or password
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04898b4901bb5c4619f6a65fc41397b4, findElement {using=css selector, value=[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/_h/0pcbs0gj1fd...}, goog:chromeOptions: {debuggerAddress: localhost:62529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62529/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 04898b4901bb5c4619f6a65fc41397b4
+11:40:54.778  INFO  manager.ListenerWD - ******************
+11:40:54.778  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on MAC (04898b4901bb5c4619f6a65fc41397b4)
+11:40:54.778  INFO  manager.ListenerWD - ******************
+11:40:54.778  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-934.png
+11:40:55.871  INFO  tests.TestBase - The name of the starts method is --->addContactTestFailWithoutEmail
+11:40:55.871  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:40:55.877  INFO  manager.ListenerWD - We have a 'problem'
+11:40:55.878  INFO  manager.ListenerWD - ******************
+11:40:55.878  INFO  manager.ListenerWD - Method method ---> findElements
+11:40:55.878  INFO  manager.ListenerWD - ******************
+11:40:55.878  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.119)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04898b4901bb5c4619f6a65fc41397b4, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/_h/0pcbs0gj1fd...}, goog:chromeOptions: {debuggerAddress: localhost:62529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62529/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 04898b4901bb5c4619f6a65fc41397b4
+11:40:55.878  INFO  manager.ListenerWD - ******************
+11:40:55.879  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on MAC (04898b4901bb5c4619f6a65fc41397b4)
+11:40:55.879  INFO  manager.ListenerWD - ******************
+11:40:55.882  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-645.png

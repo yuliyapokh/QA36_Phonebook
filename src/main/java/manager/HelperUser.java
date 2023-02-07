@@ -77,7 +77,7 @@ public class HelperUser extends HelperBase{
     public boolean isErrorMessageDisplayed(String message) {
         //Alert alert = wd.switchTo().alert();
 
-       Alert alert =  new WebDriverWait(wd, Duration.ofSeconds(10))
+       Alert alert =  new WebDriverWait(wd, Duration.ofSeconds(5))
                 .until(ExpectedConditions.alertIsPresent());
 
 

@@ -1,0 +1,204 @@
+11:25:30.756  INFO  manager.ApplicationManager - All tests start in Firefox Browser
+11:25:32.030  INFO  manager.ApplicationManager - Current url --> https://telranedu.web.app/home
+11:25:32.032  INFO  manager.ListenerTNG - onStart --->Nopackage
+11:25:32.049  INFO  tests.TestBase - The name of the starts method is --->loginSuccess
+11:25:32.050  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:25:37.069  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:25:37.071  INFO  manager.ListenerWD - List suze is --> 0
+11:25:37.071  INFO  tests.TestBase - Logout success
+11:25:37.072  INFO  manager.ListenerTNG - onTestStart --->loginSuccess
+11:25:37.073  INFO  tests.TestBase - Login with valid data: pokh@1i.ua  &  Yyp12345!
+11:25:37.073  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+11:25:37.091  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+11:25:37.328  INFO  manager.ListenerWD - Before find element --> By.name: email
+11:25:37.340  INFO  manager.ListenerWD - After find element --> By.name: email
+11:25:37.683  INFO  manager.ListenerWD - Before find element --> By.name: password
+11:25:37.732  INFO  manager.ListenerWD - After find element --> By.name: password
+11:25:38.018  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='login']
+11:25:38.026  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='login']
+11:25:38.245  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:25:39.187  INFO  manager.ListenerWD - We have a 'problem'
+11:25:39.187  INFO  manager.ListenerWD - ******************
+11:25:39.188  INFO  manager.ListenerWD - Method method ---> findElements
+11:25:39.188  INFO  manager.ListenerWD - ******************
+11:25:39.189  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.WebDriverException: Failed to interpret value as array
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [43c94c1e-9bf8-41bd-8b76-51ec7cce7d1f, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:33409, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 22.1.0, moz:processID: 61631, moz:profile: /var/folders/_h/0pcbs0gj1fd..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:33409/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 43c94c1e-9bf8-41bd-8b76-51ec7cce7d1f
+11:25:39.189  INFO  manager.ListenerWD - ******************
+11:25:39.189  INFO  manager.ListenerWD - Object target --->FirefoxDriver: firefox on MAC (43c94c1e-9bf8-41bd-8b76-51ec7cce7d1f)
+11:25:39.189  INFO  manager.ListenerWD - ******************
+11:25:39.216  INFO  manager.ListenerTNG - onTestFailure --->loginSuccess
+11:25:39.217  INFO  tests.TestBase - The name of the starts method is --->loginSuccess
+11:25:39.218  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:25:39.230  INFO  manager.ListenerWD - We have a 'problem'
+11:25:39.230  INFO  manager.ListenerWD - ******************
+11:25:39.230  INFO  manager.ListenerWD - Method method ---> findElements
+11:25:39.230  INFO  manager.ListenerWD - ******************
+11:25:39.230  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Wrong email or password: 
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [43c94c1e-9bf8-41bd-8b76-51ec7cce7d1f, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:33409, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 22.1.0, moz:processID: 61631, moz:profile: /var/folders/_h/0pcbs0gj1fd..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:33409/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 43c94c1e-9bf8-41bd-8b76-51ec7cce7d1f
+11:25:39.230  INFO  manager.ListenerWD - ******************
+11:25:39.230  INFO  manager.ListenerWD - Object target --->FirefoxDriver: firefox on MAC (43c94c1e-9bf8-41bd-8b76-51ec7cce7d1f)
+11:25:39.230  INFO  manager.ListenerWD - ******************
+11:25:39.235  INFO  manager.ListenerTNG - onTestStart --->loginSuccess
+11:25:39.236  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccess
+11:25:39.237  INFO  manager.ListenerTNG - onTestStart --->loginSuccess
+11:25:39.237  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccess
+11:25:39.239  INFO  manager.ListenerTNG - onTestStart --->loginSuccess1
+11:25:39.240  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccess1
+11:25:39.240  INFO  manager.ListenerTNG - onTestStart --->loginSuccess1
+11:25:39.240  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccess1
+11:25:39.241  INFO  manager.ListenerTNG - onTestStart --->loginSuccessDP
+11:25:39.242  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessDP
+11:25:39.242  INFO  manager.ListenerTNG - onTestStart --->loginSuccessDP
+11:25:39.242  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessDP
+11:25:39.243  INFO  manager.ListenerTNG - onTestStart --->loginSuccessDP
+11:25:39.243  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessDP
+11:25:39.244  INFO  manager.ListenerTNG - onTestStart --->loginSuccessModel
+11:25:39.249  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessModel
+11:25:39.250  INFO  manager.ListenerTNG - onTestStart --->loginSuccessModel
+11:25:39.250  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessModel
+11:25:39.251  INFO  manager.ListenerTNG - onTestStart --->loginSuccessModel
+11:25:39.251  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessModel
+11:25:39.252  INFO  manager.ListenerTNG - onTestStart --->loginSuccessModelFromFile
+11:25:39.252  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessModelFromFile
+11:25:39.253  INFO  manager.ListenerTNG - onTestStart --->loginSuccessModelFromFile
+11:25:39.253  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessModelFromFile
+11:25:39.254  INFO  manager.ListenerTNG - onTestStart --->loginSuccessModelFromFile
+11:25:39.254  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessModelFromFile
+11:25:39.255  INFO  manager.ListenerTNG - onTestStart --->loginUnregisterUser
+11:25:39.256  INFO  manager.ListenerTNG - onTestSkipped --->loginUnregisterUser
+11:25:39.257  INFO  manager.ListenerTNG - onTestStart --->loginWrongEmail
+11:25:39.258  INFO  manager.ListenerTNG - onTestSkipped --->loginWrongEmail
+11:25:39.259  INFO  manager.ListenerTNG - onTestStart --->loginWrongPassword
+11:25:39.259  INFO  manager.ListenerTNG - onTestSkipped --->loginWrongPassword
+11:25:39.261  INFO  tests.TestBase - The name of the starts method is --->registrationSuccess
+11:25:39.262  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:25:44.273  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:25:44.273  INFO  manager.ListenerWD - List suze is --> 0
+11:25:44.273  INFO  manager.ListenerTNG - onTestStart --->registrationSuccess
+11:25:44.276  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+11:25:44.286  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+11:25:44.496  INFO  manager.ListenerWD - Before find element --> By.name: email
+11:25:44.506  INFO  manager.ListenerWD - After find element --> By.name: email
+11:25:44.740  INFO  manager.ListenerWD - Before find element --> By.name: password
+11:25:44.748  INFO  manager.ListenerWD - After find element --> By.name: password
+11:25:44.974  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+11:25:44.982  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+11:25:45.192  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:25:45.459  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:25:45.459  INFO  manager.ListenerWD - List suze is --> 1
+11:25:45.462  INFO  manager.ListenerTNG - onTestSuccessregistrationSuccess
+11:25:45.462  INFO  tests.TestBase - The name of the starts method is --->registrationUserAlreadyExists
+11:25:45.463  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:25:45.470  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:25:45.470  INFO  manager.ListenerWD - List suze is --> 1
+11:25:45.470  INFO  manager.ListenerWD - Before find element --> By.xpath: //button[text()='Sign Out']
+11:25:45.478  INFO  manager.ListenerWD - After find element --> By.xpath: //button[text()='Sign Out']
+11:25:45.688  INFO  manager.ListenerTNG - onTestStart --->registrationUserAlreadyExists
+11:25:45.688  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+11:25:45.698  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+11:25:45.908  INFO  manager.ListenerWD - Before find element --> By.name: email
+11:25:45.918  INFO  manager.ListenerWD - After find element --> By.name: email
+11:25:46.156  INFO  manager.ListenerWD - Before find element --> By.name: password
+11:25:46.164  INFO  manager.ListenerWD - After find element --> By.name: password
+11:25:46.407  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+11:25:46.414  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+11:25:46.616  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:25:46.626  INFO  manager.ListenerWD - We have a 'problem'
+11:25:46.627  INFO  manager.ListenerWD - ******************
+11:25:46.627  INFO  manager.ListenerWD - Method method ---> findElements
+11:25:46.627  INFO  manager.ListenerWD - ******************
+11:25:46.627  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!: 
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [43c94c1e-9bf8-41bd-8b76-51ec7cce7d1f, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:33409, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 22.1.0, moz:processID: 61631, moz:profile: /var/folders/_h/0pcbs0gj1fd..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:33409/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 43c94c1e-9bf8-41bd-8b76-51ec7cce7d1f
+11:25:46.627  INFO  manager.ListenerWD - ******************
+11:25:46.627  INFO  manager.ListenerWD - Object target --->FirefoxDriver: firefox on MAC (43c94c1e-9bf8-41bd-8b76-51ec7cce7d1f)
+11:25:46.627  INFO  manager.ListenerWD - ******************
+11:25:46.629  INFO  manager.ListenerTNG - onTestFailure --->registrationUserAlreadyExists
+11:25:46.630  INFO  tests.TestBase - The name of the starts method is --->registrationWrongEmail
+11:25:46.630  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:25:51.640  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:25:51.640  INFO  manager.ListenerWD - List suze is --> 0
+11:25:51.641  INFO  manager.ListenerTNG - onTestStart --->registrationWrongEmail
+11:25:51.641  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+11:25:51.651  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+11:25:51.864  INFO  manager.ListenerWD - Before find element --> By.name: email
+11:25:51.880  INFO  manager.ListenerWD - After find element --> By.name: email
+11:25:52.116  INFO  manager.ListenerWD - Before find element --> By.name: password
+11:25:52.124  INFO  manager.ListenerWD - After find element --> By.name: password
+11:25:52.355  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+11:25:52.362  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+11:25:52.555  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:25:52.576  INFO  manager.ListenerWD - We have a 'problem'
+11:25:52.576  INFO  manager.ListenerWD - ******************
+11:25:52.576  INFO  manager.ListenerWD - Method method ---> findElements
+11:25:52.576  INFO  manager.ListenerWD - ******************
+11:25:52.576  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!: 
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [43c94c1e-9bf8-41bd-8b76-51ec7cce7d1f, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:33409, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 22.1.0, moz:processID: 61631, moz:profile: /var/folders/_h/0pcbs0gj1fd..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:33409/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 43c94c1e-9bf8-41bd-8b76-51ec7cce7d1f
+11:25:52.577  INFO  manager.ListenerWD - ******************
+11:25:52.577  INFO  manager.ListenerWD - Object target --->FirefoxDriver: firefox on MAC (43c94c1e-9bf8-41bd-8b76-51ec7cce7d1f)
+11:25:52.577  INFO  manager.ListenerWD - ******************
+11:25:52.578  INFO  manager.ListenerTNG - onTestFailure --->registrationWrongEmail
+11:25:52.579  INFO  tests.TestBase - The name of the starts method is --->registrationWrongPassword
+11:25:52.579  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:25:57.589  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:25:57.590  INFO  manager.ListenerWD - List suze is --> 0
+11:25:57.590  INFO  manager.ListenerTNG - onTestStart --->registrationWrongPassword
+11:25:57.591  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+11:25:57.605  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+11:25:57.822  INFO  manager.ListenerWD - Before find element --> By.name: email
+11:25:57.836  INFO  manager.ListenerWD - After find element --> By.name: email
+11:25:58.071  INFO  manager.ListenerWD - Before find element --> By.name: password
+11:25:58.078  INFO  manager.ListenerWD - After find element --> By.name: password
+11:25:58.307  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+11:25:58.314  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+11:25:58.514  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:25:58.526  INFO  manager.ListenerWD - We have a 'problem'
+11:25:58.526  INFO  manager.ListenerWD - ******************
+11:25:58.526  INFO  manager.ListenerWD - Method method ---> findElements
+11:25:58.526  INFO  manager.ListenerWD - ******************
+11:25:58.526  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!: 
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [43c94c1e-9bf8-41bd-8b76-51ec7cce7d1f, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:33409, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 22.1.0, moz:processID: 61631, moz:profile: /var/folders/_h/0pcbs0gj1fd..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:33409/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 43c94c1e-9bf8-41bd-8b76-51ec7cce7d1f
+11:25:58.527  INFO  manager.ListenerWD - ******************
+11:25:58.527  INFO  manager.ListenerWD - Object target --->FirefoxDriver: firefox on MAC (43c94c1e-9bf8-41bd-8b76-51ec7cce7d1f)
+11:25:58.527  INFO  manager.ListenerWD - ******************
+11:25:58.528  INFO  manager.ListenerTNG - onTestFailure --->registrationWrongPassword
+11:25:58.529  INFO  manager.ListenerTNG - onFinish --->Nopackage

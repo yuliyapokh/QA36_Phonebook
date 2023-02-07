@@ -1,0 +1,31 @@
+18:25:58.729  INFO  manager.ApplicationManager - All tests start in Firefox Browser
+18:26:00.079  INFO  manager.ApplicationManager - Current url --> https://telranedu.web.app/home
+18:26:00.087  INFO  manager.ListenerTNG - onStart --->Nopackage
+18:26:00.119  INFO  tests.TestBase - The name of the starts method is --->loginWrongEmail
+18:26:00.120  INFO  manager.ListenerTNG - onTestStart --->loginWrongEmail
+18:26:00.121  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+18:26:00.145  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+18:26:00.436  INFO  tests.TestBase - Login with invalid data: pokh1i.ua  &  Yyp12345!
+18:26:00.437  INFO  manager.ListenerWD - Before find element --> By.name: email
+18:26:00.447  INFO  manager.ListenerWD - After find element --> By.name: email
+18:26:00.691  INFO  manager.ListenerWD - Before find element --> By.name: password
+18:26:00.701  INFO  manager.ListenerWD - After find element --> By.name: password
+18:26:00.931  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='login']
+18:26:00.940  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='login']
+18:26:01.158  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+18:26:02.157  INFO  manager.ListenerWD - We have a 'problem'
+18:26:02.158  INFO  manager.ListenerWD - ******************
+18:26:02.158  INFO  manager.ListenerWD - Method method ---> findElements
+18:26:02.158  INFO  manager.ListenerWD - ******************
+18:26:02.159  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.WebDriverException: Failed to interpret value as array
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ff543516-a77a-4dc7-ba41-ef0193db1b01, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:41977, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 22.1.0, moz:processID: 72352, moz:profile: /var/folders/_h/0pcbs0gj1fd..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:41977/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ff543516-a77a-4dc7-ba41-ef0193db1b01
+18:26:02.159  INFO  manager.ListenerWD - ******************
+18:26:02.159  INFO  manager.ListenerWD - Object target --->FirefoxDriver: firefox on MAC (ff543516-a77a-4dc7-ba41-ef0193db1b01)
+18:26:02.159  INFO  manager.ListenerWD - ******************
+18:26:02.198  INFO  manager.ListenerTNG - onTestFailure --->loginWrongEmail
+18:26:02.200  INFO  manager.ListenerTNG - onFinish --->Nopackage

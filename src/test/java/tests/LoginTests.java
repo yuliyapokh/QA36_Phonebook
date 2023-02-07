@@ -31,9 +31,9 @@ public class LoginTests extends TestBase {
 
         List<Object[]> list = new ArrayList<>();
 
-        list.add(new Object[]{"noa@gmail.com","Nnoa12345$"});
-        list.add(new Object[]{"sonya@gmail.com","Ss12345$"});
-        list.add(new Object[]{"noa@gmail.com","Nnoa12345$"});
+        list.add(new Object[]{"pokh@1i.ua","Yyp12345!"});
+        list.add(new Object[]{"pokh@1i.ua","Yyp12345!"});
+        list.add(new Object[]{"pokh@1i.ua","Yyp12345!"});
 
         return list.iterator();
 
@@ -66,7 +66,7 @@ public class LoginTests extends TestBase {
     public void loginSuccess1(){
 
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("sonya@gmail.com","Ss12345$");
+        app.getHelperUser().fillLoginRegistrationForm("pokh@1i.ua","Yyp12345!");
         app.getHelperUser().submitLogin();
         Assert.assertTrue(app.getHelperUser().isLogged());
 
@@ -95,10 +95,10 @@ public class LoginTests extends TestBase {
 
     /////////////////////////////////////////////////
 
-    @Test
+    @Test(groups = {"smoke"})
     public void loginWrongEmail() {
         app.getHelperUser().openLoginRegistrationForm();
-        logger.info("Login with valid data: pokh1i.ua  &  Yyp12345!");
+        logger.info("Login with invalid data: pokh1i.ua  &  Yyp12345!");
         app.getHelperUser().fillLoginRegistrationForm("pokh1i.ua", "Yyp12345!");
         app.getHelperUser().submitLogin();
         Assert.assertFalse(app.getHelperUser().isLogged());

@@ -1,0 +1,114 @@
+11:23:05.960  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+11:23:07.898  INFO  manager.ApplicationManager - Current url --> https://telranedu.web.app/home
+11:23:07.900  INFO  manager.ListenerTNG - onStart --->Nopackage
+11:23:07.916  INFO  tests.TestBase - The name of the starts method is --->loginSuccess
+11:23:07.917  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:23:12.985  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:23:12.988  INFO  manager.ListenerWD - List suze is --> 0
+11:23:12.988  INFO  tests.TestBase - Logout success
+11:23:12.990  INFO  manager.ListenerTNG - onTestStart --->loginSuccess
+11:23:12.990  INFO  tests.TestBase - Login with valid data: pokh@1i.ua  &  Yyp12345!
+11:23:12.991  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+11:23:13.018  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+11:23:13.484  INFO  manager.ListenerWD - Before find element --> By.name: email
+11:23:13.520  INFO  manager.ListenerWD - After find element --> By.name: email
+11:23:14.036  INFO  manager.ListenerWD - Before find element --> By.name: password
+11:23:14.067  INFO  manager.ListenerWD - After find element --> By.name: password
+11:23:14.197  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='login']
+11:23:14.214  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='login']
+11:23:14.302  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:23:15.422  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:23:15.422  INFO  manager.ListenerWD - List suze is --> 0
+11:23:15.426  INFO  manager.ListenerTNG - onTestFailure --->loginSuccess
+11:23:15.427  INFO  tests.TestBase - The name of the starts method is --->loginSuccess
+11:23:15.428  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:23:15.441  INFO  manager.ListenerWD - We have a 'problem'
+11:23:15.441  INFO  manager.ListenerWD - ******************
+11:23:15.441  INFO  manager.ListenerWD - Method method ---> findElements
+11:23:15.441  INFO  manager.ListenerWD - ******************
+11:23:15.443  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=109.0.5414.119): Wrong email or password
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de20449774d663c0427b9169685d9372, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/_h/0pcbs0gj1fd...}, goog:chromeOptions: {debuggerAddress: localhost:62874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62874/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: de20449774d663c0427b9169685d9372
+11:23:15.444  INFO  manager.ListenerWD - ******************
+11:23:15.444  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on MAC (de20449774d663c0427b9169685d9372)
+11:23:15.445  INFO  manager.ListenerWD - ******************
+11:23:15.448  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-618.png
+11:23:16.794  INFO  manager.ListenerTNG - onTestStart --->loginSuccess
+11:23:16.795  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccess
+11:23:16.795  INFO  manager.ListenerTNG - onTestStart --->loginSuccess
+11:23:16.795  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccess
+11:23:16.797  INFO  manager.ListenerTNG - onTestStart --->loginSuccess1
+11:23:16.797  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccess1
+11:23:16.797  INFO  manager.ListenerTNG - onTestStart --->loginSuccess1
+11:23:16.798  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccess1
+11:23:16.798  INFO  manager.ListenerTNG - onTestStart --->loginSuccessDP
+11:23:16.799  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessDP
+11:23:16.799  INFO  manager.ListenerTNG - onTestStart --->loginSuccessDP
+11:23:16.799  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessDP
+11:23:16.800  INFO  manager.ListenerTNG - onTestStart --->loginSuccessDP
+11:23:16.800  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessDP
+11:23:16.801  INFO  manager.ListenerTNG - onTestStart --->loginSuccessModel
+11:23:16.804  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessModel
+11:23:16.805  INFO  manager.ListenerTNG - onTestStart --->loginSuccessModel
+11:23:16.805  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessModel
+11:23:16.806  INFO  manager.ListenerTNG - onTestStart --->loginSuccessModel
+11:23:16.806  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessModel
+11:23:16.807  INFO  manager.ListenerTNG - onTestStart --->loginSuccessModelFromFile
+11:23:16.807  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessModelFromFile
+11:23:16.808  INFO  manager.ListenerTNG - onTestStart --->loginSuccessModelFromFile
+11:23:16.808  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessModelFromFile
+11:23:16.808  INFO  manager.ListenerTNG - onTestStart --->loginSuccessModelFromFile
+11:23:16.809  INFO  manager.ListenerTNG - onTestSkipped --->loginSuccessModelFromFile
+11:23:16.809  INFO  manager.ListenerTNG - onTestStart --->loginUnregisterUser
+11:23:16.809  INFO  manager.ListenerTNG - onTestSkipped --->loginUnregisterUser
+11:23:16.810  INFO  manager.ListenerTNG - onTestStart --->loginWrongEmail
+11:23:16.810  INFO  manager.ListenerTNG - onTestSkipped --->loginWrongEmail
+11:23:16.811  INFO  manager.ListenerTNG - onTestStart --->loginWrongPassword
+11:23:16.811  INFO  manager.ListenerTNG - onTestSkipped --->loginWrongPassword
+11:23:16.813  INFO  tests.TestBase - The name of the starts method is --->registrationSuccess
+11:23:16.813  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:23:21.870  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:23:21.872  INFO  manager.ListenerWD - List suze is --> 0
+11:23:21.873  INFO  manager.ListenerTNG - onTestStart --->registrationSuccess
+11:23:21.874  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+11:23:21.890  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+11:23:21.930  INFO  manager.ListenerWD - Before find element --> By.name: email
+11:23:21.941  INFO  manager.ListenerWD - After find element --> By.name: email
+11:23:22.105  INFO  manager.ListenerWD - Before find element --> By.name: password
+11:23:22.120  INFO  manager.ListenerWD - After find element --> By.name: password
+11:23:22.317  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+11:23:22.334  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+11:23:22.408  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:23:22.748  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+11:23:22.748  INFO  manager.ListenerWD - List suze is --> 0
+11:23:22.748  INFO  manager.ListenerTNG - onTestFailure --->registrationSuccess
+11:23:22.749  INFO  tests.TestBase - The name of the starts method is --->registrationUserAlreadyExists
+11:23:22.749  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+11:23:22.754  INFO  manager.ListenerWD - We have a 'problem'
+11:23:22.754  INFO  manager.ListenerWD - ******************
+11:23:22.754  INFO  manager.ListenerWD - Method method ---> findElements
+11:23:22.754  INFO  manager.ListenerWD - ******************
+11:23:22.754  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=109.0.5414.119): User already exist
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de20449774d663c0427b9169685d9372, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/_h/0pcbs0gj1fd...}, goog:chromeOptions: {debuggerAddress: localhost:62874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62874/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: de20449774d663c0427b9169685d9372
+11:23:22.755  INFO  manager.ListenerWD - ******************
+11:23:22.755  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on MAC (de20449774d663c0427b9169685d9372)
+11:23:22.755  INFO  manager.ListenerWD - ******************
+11:23:22.755  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-111.png
+11:23:23.808  INFO  manager.ListenerTNG - onTestStart --->registrationUserAlreadyExists
+11:23:23.809  INFO  manager.ListenerTNG - onTestSkipped --->registrationUserAlreadyExists
+11:23:23.810  INFO  manager.ListenerTNG - onTestStart --->registrationWrongEmail
+11:23:23.811  INFO  manager.ListenerTNG - onTestSkipped --->registrationWrongEmail
+11:23:23.811  INFO  manager.ListenerTNG - onTestStart --->registrationWrongPassword
+11:23:23.811  INFO  manager.ListenerTNG - onTestSkipped --->registrationWrongPassword
+11:23:23.812  INFO  manager.ListenerTNG - onFinish --->Nopackage

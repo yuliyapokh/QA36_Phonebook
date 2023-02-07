@@ -1,0 +1,54 @@
+20:28:55.888  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+20:28:57.734  INFO  manager.ApplicationManager - Current url --> https://telranedu.web.app/home
+20:28:57.737  INFO  manager.ListenerTNG - onStart --->Nopackage
+20:28:57.751  INFO  tests.TestBase - The name of the starts method is --->loginWrongEmail
+20:28:57.752  INFO  manager.ListenerTNG - onTestStart --->loginWrongEmail
+20:28:57.753  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+20:28:57.853  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+20:28:58.334  INFO  tests.TestBase - Login with invalid data: pokh1i.ua  &  Yyp12345!
+20:28:58.335  INFO  manager.ListenerWD - Before find element --> By.name: email
+20:28:58.370  INFO  manager.ListenerWD - After find element --> By.name: email
+20:28:58.914  INFO  manager.ListenerWD - Before find element --> By.name: password
+20:28:58.936  INFO  manager.ListenerWD - After find element --> By.name: password
+20:28:59.102  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='login']
+20:28:59.118  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='login']
+20:28:59.194  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+20:29:00.291  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+20:29:00.294  INFO  manager.ListenerWD - List suze is --> 0
+20:29:00.321  INFO  tests.TestBase - Test success
+20:29:00.323  INFO  manager.ListenerTNG - onTestSuccessloginWrongEmail
+20:29:00.327  INFO  tests.TestBase - The name of the starts method is --->registrationSuccess
+20:29:00.327  INFO  manager.ListenerTNG - onTestStart --->registrationSuccess
+20:29:00.333  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+20:29:00.367  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+20:29:00.418  INFO  manager.ListenerWD - Before find element --> By.name: email
+20:29:00.430  INFO  manager.ListenerWD - After find element --> By.name: email
+20:29:00.634  INFO  manager.ListenerWD - Before find element --> By.name: password
+20:29:00.651  INFO  manager.ListenerWD - After find element --> By.name: password
+20:29:00.912  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+20:29:00.929  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+20:29:01.015  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+20:29:01.350  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+20:29:01.350  INFO  manager.ListenerWD - List suze is --> 0
+20:29:01.351  INFO  manager.ListenerTNG - onTestFailure --->registrationSuccess
+20:29:01.353  INFO  tests.TestBase - The name of the starts method is --->addContactTestFailWithoutName
+20:29:01.354  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+20:29:01.367  INFO  manager.ListenerWD - We have a 'problem'
+20:29:01.367  INFO  manager.ListenerWD - ******************
+20:29:01.368  INFO  manager.ListenerWD - Method method ---> findElements
+20:29:01.368  INFO  manager.ListenerWD - ******************
+20:29:01.368  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=109.0.5414.119): User already exist
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.0.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de3ecf892a030b4374fd83538f1a5b6c, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/_h/0pcbs0gj1fd...}, goog:chromeOptions: {debuggerAddress: localhost:60318}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:60318/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: de3ecf892a030b4374fd83538f1a5b6c
+20:29:01.369  INFO  manager.ListenerWD - ******************
+20:29:01.369  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on MAC (de3ecf892a030b4374fd83538f1a5b6c)
+20:29:01.369  INFO  manager.ListenerWD - ******************
+20:29:01.370  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-977.png
+20:29:02.468  INFO  manager.ListenerTNG - onTestStart --->addContactTestFailWithoutName
+20:29:02.469  INFO  manager.ListenerTNG - onTestSkipped --->addContactTestFailWithoutName
+20:29:02.469  INFO  manager.ListenerTNG - onFinish --->Nopackage

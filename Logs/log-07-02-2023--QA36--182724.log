@@ -1,0 +1,20 @@
+18:27:33.887  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+18:27:36.534  INFO  manager.ApplicationManager - Current url --> https://telranedu.web.app/home
+18:27:36.538  INFO  manager.ListenerTNG - onStart --->Nopackage
+18:27:36.554  INFO  tests.TestBase - The name of the starts method is --->loginWrongEmail
+18:27:36.555  INFO  manager.ListenerTNG - onTestStart --->loginWrongEmail
+18:27:36.556  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+18:27:36.638  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+18:27:37.118  INFO  tests.TestBase - Login with invalid data: pokh1i.ua  &  Yyp12345!
+18:27:37.118  INFO  manager.ListenerWD - Before find element --> By.name: email
+18:27:37.156  INFO  manager.ListenerWD - After find element --> By.name: email
+18:27:37.721  INFO  manager.ListenerWD - Before find element --> By.name: password
+18:27:37.763  INFO  manager.ListenerWD - After find element --> By.name: password
+18:27:37.908  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='login']
+18:27:37.925  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='login']
+18:27:38.007  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+18:27:39.192  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+18:27:39.194  INFO  manager.ListenerWD - List suze is --> 0
+18:27:39.234  INFO  tests.TestBase - Test success
+18:27:39.236  INFO  manager.ListenerTNG - onTestSuccessloginWrongEmail
+18:27:39.239  INFO  manager.ListenerTNG - onFinish --->Nopackage

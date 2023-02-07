@@ -15,7 +15,7 @@ public class RegistrationTests extends TestBase{
         }
 
     }
-    @Test
+    @Test(groups = {"smoke","task"})
     public void registrationSuccess(){
         Random random = new Random();
         int i= random.nextInt(100);

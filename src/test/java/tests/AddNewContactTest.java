@@ -10,7 +10,7 @@ import java.util.Random;
 
 public class AddNewContactTest extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (!app.getHelperUser().isLogged())
             app.getHelperUser().login(User.builder().email("pokh@1i.ua").password("Yyp12345!").build());
@@ -64,7 +64,7 @@ public class AddNewContactTest extends TestBase {
 
     }
 
-@Test
+@Test(groups = {"smoke"})
     public void addContactTestFailWithoutName() {
 
         Random random = new Random();
