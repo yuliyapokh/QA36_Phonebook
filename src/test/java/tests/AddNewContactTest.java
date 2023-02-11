@@ -42,7 +42,7 @@ public class AddNewContactTest extends TestBase {
 
 
     }
-    @Test
+    @Test(groups = {"task"})
     public void addContactTestSuccessRequiredFields() {
 
         Random random = new Random();
