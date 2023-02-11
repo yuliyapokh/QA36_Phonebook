@@ -5,7 +5,7 @@
     <test name="Nopackage" >
         <groups>
             <run>
-                <include name="smoke"/>
+                <include name="task"/>
             </run>
         </groups>
         
